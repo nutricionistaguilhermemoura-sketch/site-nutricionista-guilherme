@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nutricionista Esportivo em Guarulhos | Guilherme Moura CRN3 56142</title>
+<meta name="description" content="Nutricionista esportivo formado pela USP, +12.000 consultas realizadas. Atendimento presencial em Guarulhos e online. Emagrecimento, hipertrofia e performance. Agende pelo WhatsApp.">
+<link rel="icon" href="https://static.wixstatic.com/media/fef7c3_011ca8942328465d9faabf20bcf757fb~mv2.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- ================= HEADER ================= -->
+<header>
+  <div class="topbar">
+    <div class="wrap topbar-in">
+      <div class="social-left">
+        <a href="https://www.instagram.com/nutricionistaguilherme/" target="_blank" rel="noopener" aria-label="Instagram">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4.5"/><circle cx="17.5" cy="6.5" r="1.2" fill="currentColor" stroke="none"/></svg>
+        </a>
+        <a href="https://wa.me/5511983447770" target="_blank" rel="noopener" aria-label="WhatsApp">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm0 18.2c-1.6 0-3.1-.4-4.4-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2Zm4.6-6.1c-.3-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1-.2.3-.6.8-.8 1-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.4-3c-.3-.4 0-.6.2-.8l.5-.6c.1-.2.1-.4 0-.5l-.8-1.9c-.2-.5-.4-.4-.6-.4h-.5c-.2 0-.5.1-.7.3-.9.9-1.2 2.2-.3 3.9 1.1 2 2.7 3.6 4.8 4.6 1.6.7 2.5.7 3.3.6.6-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.1-1.2-.1-.1-.3-.2-.7-.2Z"/></svg>
+        </a>
+      </div>
+      <a class="logo-link" href="index.html">
+        <img src="https://static.wixstatic.com/media/fef7c3_011ca8942328465d9faabf20bcf757fb~mv2.png" alt="NG Nutrição Esportiva — Guilherme Moura">
+      </a>
+    </div>
+  </div>
+  <nav class="mainmenu">
+    <ul>
+      <li><a class="active" href="index.html">Página Inicial</a></li>
+      <li><a href="sobre.html">Sobre</a></li>
+      <li><a href="index.html#objetivos">Objetivos</a></li>
+      <li><a href="index.html#metodo">Consultas</a></li>
+      <li><a href="bioimpedancia.html">Bioimpedância</a></li>
+      <li><a href="index.html#investimento">Investimento</a></li>
+      <li><a href="index.html#contato">Contato</a></li>
+    </ul>
+  </nav>
+  <a class="greenbar" href="https://wa.me/5511983447770?text=Ol%C3%A1%2C%20Guilherme!%20Quero%20agendar%20uma%20consulta." target="_blank" rel="noopener">
+    <svg class="wa-ic" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm0 18.2c-1.6 0-3.1-.4-4.4-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2Zm4.6-6.1c-.3-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1-.2.3-.6.8-.8 1-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.4-3c-.3-.4 0-.6.2-.8l.5-.6c.1-.2.1-.4 0-.5l-.8-1.9c-.2-.5-.4-.4-.6-.4h-.5c-.2 0-.5.1-.7.3-.9.9-1.2 2.2-.3 3.9 1.1 2 2.7 3.6 4.8 4.6 1.6.7 2.5.7 3.3.6.6-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.1-1.2-.1-.1-.3-.2-.7-.2Z"/></svg>
+    AGENDAR CONSULTA
+  </a>
+</header>
+
+<!-- ================= HERO ================= -->
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div>
+      <span class="eyebrow">Guilherme Moura · CRN3 56142 · Guarulhos e Online</span>
+      <h1>Nutricionista esportivo e atleta: <em>ensino o que sei e vivo o que ensino.</em></h1>
+      <div class="chips">
+        <span class="chip">🎓 Nutrição USP</span>
+        <span class="chip">📚 Pós-graduação FMRP-USP</span>
+        <span class="chip">🧬 Nutrição Esportiva &amp; Epigenética</span>
+      </div>
+      <p class="lead">Aqui você não recebe uma dieta genérica. Juntos, vamos montar <strong>a melhor dieta do SEU mundo</strong> — considerando seus objetivos, rotina, preferências alimentares, contexto socioeconômico e genética.</p>
+      <a class="btn btn-wa" href="https://wa.me/5511983447770?text=Ol%C3%A1%2C%20Guilherme!%20Quero%20agendar%20uma%20consulta." target="_blank" rel="noopener">
+        <svg class="wa-ic" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm0 18.2c-1.6 0-3.1-.4-4.4-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2Zm4.6-6.1c-.3-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1-.2.3-.6.8-.8 1-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.4-3c-.3-.4 0-.6.2-.8l.5-.6c.1-.2.1-.4 0-.5l-.8-1.9c-.2-.5-.4-.4-.6-.4h-.5c-.2 0-.5.1-.7.3-.9.9-1.2 2.2-.3 3.9 1.1 2 2.7 3.6 4.8 4.6 1.6.7 2.5.7 3.3.6.6-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.1-1.2-.1-.1-.3-.2-.7-.2Z"/></svg>
+        Agendar consulta
+      </a>
+    </div>
+    <div class="hero-photo">
+      <div class="photo-frame" id="ph-hero">
+        <img src="images/consultorio.jpg" alt="Guilherme Moura no consultório" onerror="this.closest('.photo-frame').classList.add('is-missing')">
+        <div class="ph-label">[ Foto: consultório — adicione images/consultorio.jpg ]</div>
+      </div>
+      <div class="hero-badge"><b>+12.000</b>consultas realizadas<br>em 8 anos de clínica</div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= STATS ================= -->
+<div class="stats">
+  <div class="wrap stats-grid">
+    <div class="stat"><b>+12.000</b><span>consultas realizadas</span></div>
+    <div class="stat"><b>+3.000</b><span>pacientes atendidos</span></div>
+    <div class="stat"><b>8 anos</b><span>de experiência clínica e esportiva</span></div>
+    <div class="stat">
+      <img class="usp-logo" src="https://static.wixstatic.com/media/fef7c3_9f5634a1244c42e2b0d175013c0600ba~mv2.gif" alt="USP" onerror="this.style.display='none'">
+      <b style="font-size:1.3rem">USP + FMRP-USP</b><span>formação e pós-graduação</span>
+    </div>
+  </div>
+</div>
+
+<!-- ================= VIVE O QUE ENSINA ================= -->
+<section class="live">
+  <div class="wrap">
+    <div class="live-head">
+      <span class="eyebrow">Na prática</span>
+      <h2>Atleta e nutricionista: eu vivo o que prescrevo.</h2>
+      <p>São mais de 16 horas semanais entre futevôlei, futebol, musculação e jiu-jitsu. A nutrição que eu prescrevo é a mesma ciência que aplico na minha própria rotina de atleta — recuperação, hidratação, suplementação e performance testadas dentro e fora do consultório.</p>
+    </div>
+    <div class="live-grid">
+      <div class="photo-frame"><img src="images/futevolei-1.jpg" alt="Guilherme jogando futevôlei" onerror="this.closest('.photo-frame').classList.add('is-missing')"><div class="ph-label">[ Foto: futevôlei 1 — images/futevolei-1.jpg ]</div></div>
+      <div class="photo-frame"><img src="images/futevolei-2.jpg" alt="Guilherme no futevôlei à noite" onerror="this.closest('.photo-frame').classList.add('is-missing')"><div class="ph-label">[ Foto: futevôlei 2 — images/futevolei-2.jpg ]</div></div>
+      <div class="photo-frame"><img src="images/futebol.jpg" alt="Guilherme jogando futebol" onerror="this.closest('.photo-frame').classList.add('is-missing')"><div class="ph-label">[ Foto: futebol — images/futebol.jpg ]</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= OBJETIVOS ================= -->
+<section class="goals" id="objetivos">
+  <div class="wrap">
+    <span class="eyebrow">Atendimento</span>
+    <h2>Qual é o SEU objetivo?</h2>
+    <p class="sub">Cinco frentes de atendimento, todas com rigor científico: um plano feito para a sua vida real.</p>
+    <div class="goals-grid">
+      <div class="goal">
+        <span class="tag">Especialidade</span>
+        <h3>Performance Esportiva</h3>
+        <p>Atleta amador ou competitivo? Nutrição para treino, recuperação, hidratação e suplementação com base científica — prescrita por quem também compete.</p>
+        <div class="btns">
+          <a class="btn btn-card" href="https://wa.me/5511983447770?text=Ol%C3%A1!%20Quero%20atendimento%20de%20performance%20esportiva." target="_blank" rel="noopener">AGENDAR</a>
+        </div>
+      </div>
+      <div class="goal">
+        <span class="tag"></span>
+        <h3>Hipertrofia</h3>
+        <p>Ganho de massa muscular: cálculo preciso de calorias e proteína, ajuste fino da dieta ao treino e suplementação com evidência (creatina, beta-alanina, whey).</p>
+        <div class="btns">
+          <a class="btn btn-card" href="https://wa.me/5511983447770?text=Ol%C3%A1!%20Quero%20atendimento%20para%20hipertrofia." target="_blank" rel="noopener">AGENDAR</a>
+        </div>
+      </div>
+      <div class="goal">
+        <span class="tag"></span>
+        <h3>Emagrecimento</h3>
+        <p>Cansado de dietas restritivas que terminam em efeito rebote? Método baseado em ciência e adaptado à sua rotina — para emagrecer sem sofrimento.</p>
+        <div class="btns">
+          <a class="btn btn-card-outline" href="emagrecer.html">SAIBA MAIS</a>
+          <a class="btn btn-card" href="https://wa.me/5511983447770?text=Ol%C3%A1!%20Quero%20atendimento%20para%20emagrecimento." target="_blank" rel="noopener">AGENDAR</a>
+        </div>
+      </div>
+      <div class="goal">
+        <span class="tag"></span>
+        <h3>Saúde e Qualidade de Vida</h3>
+        <p>Para você que busca mais energia, melhor sono, exames em dia e uma relação saudável com a comida.</p>
+        <div class="btns">
+          <a class="btn btn-card" href="https://wa.me/5511983447770?text=Ol%C3%A1!%20Quero%20atendimento%20para%20sa%C3%BAde%20e%20qualidade%20de%20vida." target="_blank" rel="noopener">AGENDAR</a>
+        </div>
+      </div>
+      <div class="goal">
+        <span class="tag"></span>
+        <h3>Planos de Acompanhamento</h3>
+        <p>Acompanhamento trimestral da sua dieta, com ajustes contínuos conforme a sua evolução nas reavaliações.</p>
+        <div class="btns">
+          <a class="btn btn-card" href="https://wa.me/5511983447770?text=Ol%C3%A1!%20Quero%20saber%20mais%20sobre%20os%20planos%20de%20acompanhamento." target="_blank" rel="noopener">AGENDAR</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= COMO FUNCIONA ================= -->
+<section class="method" id="metodo">
+  <div class="wrap method-grid">
+    <div class="method-photo">
+      <div class="photo-frame">
+        <img src="images/cozinha.jpg" alt="Guilherme cozinhando — nutrição na vida real" onerror="this.closest('.photo-frame').classList.add('is-missing')">
+        <div class="ph-label">[ Foto: cozinhando — images/cozinha.jpg ]</div>
+      </div>
+    </div>
+    <div>
+      <span class="eyebrow">Como funciona</span>
+      <h2>Uma consulta completa. Sua dieta no mesmo dia.</h2>
+      <div class="step"><div class="n">1</div><p><b>Etapa qualitativa —</b> sua história, rotina, preferências alimentares e objetivos. É aqui que a individualização começa.</p></div>
+      <div class="step"><div class="n">2</div><p><b>Etapa quantitativa —</b> avaliação da composição corporal (bioimpedância InBody + dobras cutâneas) e do seu gasto energético.</p></div>
+      <div class="step"><div class="n">3</div><p><b>Prescrição no mesmo dia —</b> você sai da consulta (~70 minutos) com seu planejamento alimentar personalizado em mãos.</p></div>
+      <div class="inc">
+        <h3>O que está incluído</h3>
+        <ul>
+          <li>Consulta completa de ~70 minutos — presencial em Guarulhos ou online</li>
+          <li>Bioimpedância InBody e dobras cutâneas (presencial)</li>
+          <li>Planejamento alimentar 100% personalizado, entregue no mesmo dia</li>
+          <li>Avaliação e solicitação de exames bioquímicos, quando necessário</li>
+          <li>Suplementos e fitoterápicos com base em evidências, quando indicados</li>
+          <li>Contato direto via WhatsApp durante o acompanhamento</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= INVESTIMENTO ================= -->
+<section class="price" id="investimento">
+  <div class="wrap">
+    <h2>Investimento</h2>
+    <div class="price-grid">
+      <div class="pcard main">
+        <div class="t">Primeira consulta</div>
+        <div class="v"><small>R$</small> 350</div>
+        <p>Avaliação completa + planejamento alimentar personalizado entregue no mesmo dia.</p>
+        <a class="btn btn-wa" href="https://wa.me/5511983447770?text=Ol%C3%A1%2C%20Guilherme!%20Quero%20agendar%20minha%20primeira%20consulta." target="_blank" rel="noopener">Quero começar</a>
+      </div>
+      <div class="pcard">
+        <div class="t">Consulta de retorno</div>
+        <div class="v"><small>R$</small> 295</div>
+        <p>Reavaliação da composição corporal e ajuste fino do plano conforme sua evolução.</p>
+        <a class="btn btn-wa" href="https://wa.me/5511983447770?text=Ol%C3%A1%2C%20Guilherme!%20Quero%20agendar%20um%20retorno." target="_blank" rel="noopener">Agendar retorno</a>
+      </div>
+      <div class="pcard">
+        <div class="t">Plano Performance Esportiva</div>
+        <div class="v"><small>R$</small> 997<small>/mês</small></div>
+        <p>Acompanhamento mensal contínuo para atletas: consultas, ajustes por fase de treino e competição, suporte prioritário via WhatsApp.</p>
+        <a class="btn btn-wa" href="https://wa.me/5511983447770?text=Ol%C3%A1%2C%20Guilherme!%20Quero%20saber%20mais%20sobre%20o%20Plano%20Performance." target="_blank" rel="noopener">Quero performance</a>
+      </div>
+    </div>
+    <p class="refund">💡 Não trabalho diretamente com convênio, mas forneço o recibo para você solicitar o reembolso. Na maioria dos casos o processo é digital e leva em média 2 semanas.</p>
+  </div>
+</section>
+
+<!-- ================= FAQ ================= -->
+<section class="faq" id="faq">
+  <div class="wrap">
+    <h2>Perguntas frequentes</h2>
+    <div class="faq-list">
+      <details>
+        <summary>O atendimento funciona online?</summary>
+        <div class="a">Sim. A consulta online segue a mesma estrutura da presencial — avaliação completa, plano alimentar personalizado entregue no mesmo dia e suporte via WhatsApp. Apenas a bioimpedância InBody é exclusiva do atendimento presencial em Guarulhos.</div>
+      </details>
+      <details>
+        <summary>Vocês têm bioimpedância InBody?</summary>
+        <div class="a">Sim. O consultório conta com bioimpedância InBody, além de avaliação por dobras cutâneas, para uma análise completa da sua composição corporal. <a href="bioimpedancia.html" style="color:var(--caramel);font-weight:600">Conheça o exame →</a></div>
+      </details>
+      <details>
+        <summary>Vocês atendem por convênio?</summary>
+        <div class="a">Não trabalho diretamente com convênio, mas forneço o recibo para você solicitar o reembolso no seu convênio. Esse processo leva em média 2 semanas e, na maioria das vezes, pode ser feito de forma digital.</div>
+      </details>
+      <details>
+        <summary>Quanto tempo dura a consulta?</summary>
+        <div class="a">Em média 70 minutos, divididos em uma etapa qualitativa e uma quantitativa. Você recebe sua prescrição dietética no mesmo dia.</div>
+      </details>
+      <details>
+        <summary>Você atende atletas?</summary>
+        <div class="a">Sim — é minha especialidade. Sou nutricionista esportivo e atleta: atendo desde praticantes de musculação até atletas competitivos, com estratégias de treino, recuperação, hidratação e suplementação baseadas em evidência.</div>
+      </details>
+    </div>
+  </div>
+</section>
+
+<!-- ================= CTA FINAL ================= -->
+<section class="final">
+  <div class="wrap">
+    <h2>Ensino o que sei e <em>vivo o que ensino.</em></h2>
+    <p>Agora é a sua vez: vamos montar a melhor dieta do SEU mundo. Atendimento presencial em Guarulhos ou online, com prescrição no mesmo dia.</p>
+    <div class="btns">
+      <a class="btn btn-wa" href="https://wa.me/5511983447770?text=Ol%C3%A1%2C%20Guilherme!%20Quero%20agendar%20uma%20consulta." target="_blank" rel="noopener">
+        <svg class="wa-ic" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm0 18.2c-1.6 0-3.1-.4-4.4-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2Zm4.6-6.1c-.3-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1-.2.3-.6.8-.8 1-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.4-3c-.3-.4 0-.6.2-.8l.5-.6c.1-.2.1-.4 0-.5l-.8-1.9c-.2-.5-.4-.4-.6-.4h-.5c-.2 0-.5.1-.7.3-.9.9-1.2 2.2-.3 3.9 1.1 2 2.7 3.6 4.8 4.6 1.6.7 2.5.7 3.3.6.6-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.1-1.2-.1-.1-.3-.2-.7-.2Z"/></svg>
+        Agendar pelo WhatsApp
+      </a>
+      <a class="btn btn-outline-light" href="https://www.instagram.com/nutricionistaguilherme/" target="_blank" rel="noopener">Seguir no Instagram</a>
+    </div>
+  </div>
+</section>
+
+<!-- ================= FOOTER ================= -->
+<footer id="contato">
+  <div class="wrap foot-grid">
+    <div>
+      <img class="foot-logo" src="https://static.wixstatic.com/media/fef7c3_011ca8942328465d9faabf20bcf757fb~mv2.png" alt="NG Nutrição Esportiva">
+    </div>
+    <div class="fcol">
+      <h4>Institucional</h4>
+      <p>Nutricionista Esportivo Guilherme Moura<br>CRN3 56142 · USP / FMRP-USP</p>
+      <h4 style="margin-top:22px">Endereço</h4>
+      <p><a href="https://maps.google.com/?q=Rua+Conego+Valadao+813+Guarulhos+SP+07040-000" target="_blank" rel="noopener">Rua Cônego Valadão, 813 — Gopouva<br>Guarulhos - SP, 07040-000 &nbsp;📍 Ver no mapa</a></p>
+    </div>
+    <div class="fcol">
+      <h4>WhatsApp</h4>
+      <p><a href="https://wa.me/5511983447770" target="_blank" rel="noopener">+55 (11) 98344-7770</a></p>
+      <h4 style="margin-top:22px">Redes sociais</h4>
+      <div class="foot-social">
+        <a href="https://www.instagram.com/nutricionistaguilherme/" target="_blank" rel="noopener" aria-label="Instagram">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4.5"/><circle cx="17.5" cy="6.5" r="1.2" fill="currentColor" stroke="none"/></svg>
+        </a>
+        <a href="https://wa.me/5511983447770" target="_blank" rel="noopener" aria-label="WhatsApp">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm0 18.2c-1.6 0-3.1-.4-4.4-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2Zm4.6-6.1c-.3-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1-.2.3-.6.8-.8 1-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.4-3c-.3-.4 0-.6.2-.8l.5-.6c.1-.2.1-.4 0-.5l-.8-1.9c-.2-.5-.4-.4-.6-.4h-.5c-.2 0-.5.1-.7.3-.9.9-1.2 2.2-.3 3.9 1.1 2 2.7 3.6 4.8 4.6 1.6.7 2.5.7 3.3.6.6-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.1-1.2-.1-.1-.3-.2-.7-.2Z"/></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="map-shell">
+    <div id="map"></div>
+    <a class="map-cta" href="https://maps.google.com/?q=Rua+Conego+Valadao+813+Guarulhos+SP+07040-000" target="_blank" rel="noopener">📍 Traçar rota no Google Maps</a>
+  </div>
+  <div class="foot-bottom">© 2026 Guilherme Moura — Todos os direitos reservados · Publicidade em conformidade com a Resolução CFN nº 680/2021.</div>
+</footer>
+
+<a class="wa-float" href="https://wa.me/5511983447770?text=Ol%C3%A1%2C%20Guilherme!%20Quero%20agendar%20uma%20consulta." target="_blank" rel="noopener" aria-label="WhatsApp">
+  <svg viewBox="0 0 24 24" fill="#fff"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm0 18.2c-1.6 0-3.1-.4-4.4-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2Zm4.6-6.1c-.3-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1-.2.3-.6.8-.8 1-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.4-3c-.3-.4 0-.6.2-.8l.5-.6c.1-.2.1-.4 0-.5l-.8-1.9c-.2-.5-.4-.4-.6-.4h-.5c-.2 0-.5.1-.7.3-.9.9-1.2 2.2-.3 3.9 1.1 2 2.7 3.6 4.8 4.6 1.6.7 2.5.7 3.3.6.6-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.1-1.2-.1-.1-.3-.2-.7-.2Z"/></svg>
+</a>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script>
+  // Mapa do rodapé — tema escuro marrom-dourado (tiles CARTO + filtro sépia via CSS)
+  const CLINIC = [-23.4703, -46.5428]; // Rua Cônego Valadão, 813 — Gopouva, Guarulhos (ajuste fino se necessário)
+  const map = L.map('map', {scrollWheelZoom:false}).setView(CLINIC, 16);
+  L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
+    attribution:'&copy; OpenStreetMap &copy; CARTO', maxZoom: 19
+  }).addTo(map);
+  const icon = L.divIcon({className:'', html:'<div style="width:22px;height:22px;border-radius:50% 50% 50% 0;transform:rotate(-45deg);background:#c08a4e;border:2px solid #f7f2ea;box-shadow:0 4px 10px rgba(0,0,0,.5)"></div>', iconSize:[22,22], iconAnchor:[11,22]});
+  L.marker(CLINIC, {icon}).addTo(map).bindPopup('<b>Nutricionista Guilherme</b><br>Rua Cônego Valadão, 813');
+</script>
+</body>
+</html>

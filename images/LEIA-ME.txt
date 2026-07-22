@@ -1,0 +1,12 @@
+Coloque aqui as fotos com EXATAMENTE estes nomes (jpg):
+
+consultorio.jpg   -> foto de blazer no consultório (herói da página inicial)
+futevolei-1.jpg   -> ataque no futevôlei (quadra de areia, dia)
+futevolei-2.jpg   -> domínio de peito no futevôlei (noite)
+futebol.jpg       -> jogando futebol no campo
+cozinha.jpg       -> cozinhando de camiseta verde
+academia.jpg      -> sorrindo na academia (página Sobre)
+
+Como adicionar pelo navegador: abra o repositório no GitHub -> pasta images ->
+"Add file" -> "Upload files" -> arraste as fotos -> "Commit changes".
+A Vercel publica sozinha em ~1 minuto.
