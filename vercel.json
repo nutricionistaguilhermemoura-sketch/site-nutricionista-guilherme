@@ -1,0 +1,11 @@
+{
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "redirects": [
+    { "source": "/objetivos/planos", "destination": "/planos", "statusCode": 301 },
+    { "source": "/objetivos/hipertrofia", "destination": "/hipertrofia", "statusCode": 301 },
+    { "source": "/objetivos/emagrecer", "destination": "/emagrecer", "statusCode": 301 },
+    { "source": "/objetivos/saude", "destination": "/saude", "statusCode": 301 },
+    { "source": "/objetivos/sa\u00fade", "destination": "/saude", "statusCode": 301 }
+  ]
+}
