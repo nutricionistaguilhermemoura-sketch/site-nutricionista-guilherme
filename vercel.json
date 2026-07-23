@@ -2,10 +2,40 @@
   "cleanUrls": true,
   "trailingSlash": false,
   "redirects": [
-    { "source": "/objetivos/planos", "destination": "/planos", "statusCode": 301 },
-    { "source": "/objetivos/hipertrofia", "destination": "/hipertrofia", "statusCode": 301 },
-    { "source": "/objetivos/emagrecer", "destination": "/emagrecer", "statusCode": 301 },
-    { "source": "/objetivos/saude", "destination": "/saude", "statusCode": 301 },
-    { "source": "/objetivos/sa\u00fade", "destination": "/saude", "statusCode": 301 }
+    {
+      "source": "/post/palm-cooling-o-segredo-do-gelo-nas-maos-na-copa-2026",
+      "destination": "/blog/palm-cooling",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/:slug*",
+      "destination": "/blog",
+      "statusCode": 301
+    },
+    {
+      "source": "/objetivos/planos",
+      "destination": "/planos",
+      "statusCode": 301
+    },
+    {
+      "source": "/objetivos/hipertrofia",
+      "destination": "/hipertrofia",
+      "statusCode": 301
+    },
+    {
+      "source": "/objetivos/emagrecer",
+      "destination": "/emagrecer",
+      "statusCode": 301
+    },
+    {
+      "source": "/objetivos/saude",
+      "destination": "/saude",
+      "statusCode": 301
+    },
+    {
+      "source": "/objetivos/saúde",
+      "destination": "/saude",
+      "statusCode": 301
+    }
   ]
 }
